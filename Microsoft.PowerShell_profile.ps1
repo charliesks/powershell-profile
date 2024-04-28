@@ -225,7 +225,7 @@ function gc { param($m) git commit -m "$m" }
 
 function gp { git push }
 
-function g { z Github }
+function g { cd $HOME\Documents\GitHub }
 
 function gcom {
     git add .
